@@ -1,0 +1,15 @@
+.social-media-links {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  width: 50%;
+}
+.social-media-links i {
+  font-size: 75px;
+  color: white;
+}
+.social-media-links i:hover {
+  font-size: 80px;
+  color: rgb(163, 248, 163);
+}
