@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
 //assets
-import myAvatar from "../assets/cartoon-done.png";
+import myAvatar from "../assets/images/cartoon-done.png";
 //styles
 import "./landingPage.scss";
 class LandingPage extends Component {
