@@ -54,7 +54,7 @@ class Projects extends Component {
                   </CardTitle>
 
                   <CardText>
-                    3D unity game, in this game you can destroy other ships, try
+                    In this 3D unity game you can destroy other ships, try
                     to survive and arrive to the island where you have to fight
                     the final boss.
                   </CardText>
@@ -171,95 +171,7 @@ class Projects extends Component {
                 </Card>
               </div>
             </Cell>
-            <Cell col={4}>
-              <div className="category">
-                <Card
-                  shadow={10}
-                  style={{
-                    width: "340px",
-                    height: "339px",
-                    margin: "5px",
-                    minWidth: "450"
-                  }}
-                >
-                  <CardTitle
-                    expand
-                    style={{
-                      color: "#fff",
-                      background:
-                        "url(" +
-                        require("../assets/images/royale.png") +
-                        ") center no-repeat #4dff4d",
-                      backgroundSize: "cover",
-                      height: "200px"
-                    }}
-                  >
-                    Tower Defense Arduino
-                  </CardTitle>
-                  <CardText>
-                    Internet of the things Tower defense game, made with arduino
-                    and a graphical user interface made up with processing
-                    (Java)
-                  </CardText>
-                  <CardActions border>
-                    <Button
-                      onClick={() =>
-                        this.btnClick(
-                          "https://github.com/Coronates/ArduinoClashRoyale"
-                        )
-                      }
-                      colored
-                    >
-                      Check it on GitHub
-                    </Button>
-                  </CardActions>
-                </Card>
-              </div>
-            </Cell>
-            <Cell col={4}>
-              <div className="category">
-                <Card
-                  shadow={10}
-                  style={{
-                    width: "340px",
-                    height: "339px",
-                    margin: "5px",
-                    minWidth: "450"
-                  }}
-                >
-                  <CardTitle
-                    expand
-                    style={{
-                      color: "#fff",
-                      background:
-                        "url(" +
-                        require("../assets/images/react.png") +
-                        ") bottom center no-repeat 	#19e6e6",
-                      backgroundSize: "cover",
-                      height: "200px"
-                    }}
-                  >
-                    My Portfolio
-                  </CardTitle>
-                  <CardText>
-                    This is my portfolio a responsive web application, developed
-                    with Reactjs, Bootstrap and React MDL.
-                  </CardText>
-                  <CardActions border>
-                    <Button
-                      onClick={() =>
-                        this.btnClick(
-                          "https://github.com/Coronates/My-Portfolio"
-                        )
-                      }
-                      colored
-                    >
-                      Check it on GitHub
-                    </Button>
-                  </CardActions>
-                </Card>
-              </div>
-            </Cell>
+            
           </Grid>
         </section>
       </div>

@@ -4,6 +4,7 @@ import { Layout, Header, Navigation, Content, Drawer} from "react-mdl";
 
 // Components
 import Main from "./main";
+import Footer from "./footer"
 // Actions
 
 // Style files
@@ -40,7 +41,9 @@ class PortfolioLayout extends Component {
               <div className="page-content" />
               <Main />
             </Content>
+            <Footer />
           </Layout>
+          
         </div>
       </>
     );
