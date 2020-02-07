@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-//assets
-import myAvatar from "../assets/images/cartoon-done.png";
+
 //styles
 import "./landingPage.scss";
 class LandingPage extends Component {
@@ -13,7 +12,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             <img
               className="avatar"
-              src={myAvatar}
+              src={require("../assets/images/done.png")}
               alt="avatar of my face"
             ></img>
             <div className="profile">

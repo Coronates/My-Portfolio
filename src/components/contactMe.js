@@ -14,7 +14,7 @@ class ContactMe extends Component {
                   <img
                     className="avatar-contact"
                     alt="avatar cartoonized"
-                    src={require("../assets/images/cartoon.png")}
+                    src={require("../assets/images/coronate.jpeg")}
                   />
                 </div>
               </div>
