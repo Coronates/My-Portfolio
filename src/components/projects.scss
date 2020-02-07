@@ -33,6 +33,7 @@ $light-primary: #c5cae9;
   display: flex;
   justify-content: space-evenly;
   margin: inherit;
+  margin-right: 80px;
 }
 .category {
   margin: 50px;
@@ -40,7 +41,8 @@ $light-primary: #c5cae9;
 .mdl-grid {
   flex-flow: column !important;
 }
-@media screen and (min-width: 1070px) {
+
+@media screen and (min-width: 980px) {
   .mdl-grid {
     flex-flow: wrap !important;
   }
@@ -48,10 +50,14 @@ $light-primary: #c5cae9;
     padding-left: 60px;
   }
 }
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 980px) {
   .project-header {
     padding-top: 30px;
     color: #fff;
     padding-left: 0px;
+  }
+  .projects-grid {
+    
+    margin-right: 0px;
   }
 }
