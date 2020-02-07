@@ -1,3 +1,4 @@
+$hover-icon:rgb(163, 248, 163);
 .social-media-links {
   display: flex;
   justify-content: space-around;
@@ -11,7 +12,7 @@
 }
 .social-media-links i:hover {
   font-size: 80px;
-  color: rgb(163, 248, 163);
+  color: $hover-icon;
 }
 .social-media-links i{
   font-size: 70px;

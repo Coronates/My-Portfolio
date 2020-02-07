@@ -1,9 +1,10 @@
 @import "../utils/bootstrap-grid-system/scss/bootstrap-grid.scss";
-
+$back-footer:#445c54;
+$letter-footer:#f0f3f3;
 .footer {
   height: 70px;
   width: 100%;
-  background-color: #445c54;
+  background-color: $back-footer;
   display: flex;
   align-items: center;
   position: relative;
@@ -25,7 +26,7 @@
     small {
       font-size: 9px;
       letter-spacing: 0.1px;
-      color: #f0f3f3;
+      color: $letter-footer;
     }
   }
 
@@ -75,7 +76,7 @@
     }
 
     &--location > span {
-      color: #f0f3f3;
+      color: $letter-footer;
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.3px;
