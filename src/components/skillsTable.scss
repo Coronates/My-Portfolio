@@ -1,0 +1,21 @@
+.skill{
+    font-weight: bolder;
+    font-size:16px ;
+}
+
+td{
+    width: 180px;
+}
+
+@media screen and (min-width: 570px) {
+    .small-table{
+        display: none;
+    }
+  
+  }
+  @media screen and (max-width: 570px) {
+    .large-table{
+        display: none;
+    }
+  
+  }

@@ -1,3 +1,7 @@
+$light-primary: #d2d5ebe5;
+.layout {
+  background: $light-primary;
+}
 .header-color {
   background: #00b09b; 
   background: -webkit-linear-gradient(
@@ -69,3 +73,4 @@
 .demo-big-content{
   display: flex;
 }
+

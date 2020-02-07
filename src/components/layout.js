@@ -18,7 +18,7 @@ class PortfolioLayout extends Component {
     layoutRender = (
       <>
         <div className="demo-big-content">
-          <Layout>
+          <Layout className="layout">
             <Header className="header-color" title="Andrés Coronado" scroll>
               <Navigation>
                 <Link to="/">Home</Link>
@@ -27,7 +27,7 @@ class PortfolioLayout extends Component {
                 <Link to="/contact">Contact Me</Link>
               </Navigation>
             </Header>
-            <Drawer title="Andrés Coronado">
+            <Drawer className="burguer" title="Andrés Coronado">
               <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>

@@ -1,24 +1,23 @@
 $background-card: #2a702ad7;
 $card-color: linear-gradient(rgb(155, 233, 135), rgb(154, 202, 178));
 $hover-text: #224c36;
-$light-primary: #c5cae9;
+$light-primary: #d5d7e9;
 $text: #fff;
 $first-card-background: linear-gradient(#f8f8f8, $text);
 
 @media screen and (max-width: 501px) {
-.avatar-contact{
+  .avatar-contact {
     border-radius: 50%;
     background-size: contain;
     height: 200px;
-
-}
-.contact-image{
+  }
+  .contact-image {
     text-align: center;
-}
-.general{
+  }
+  .general {
     display: none;
-}
-.data-block {
+  }
+  .data-block {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -30,33 +29,34 @@ $first-card-background: linear-gradient(#f8f8f8, $text);
     padding-left: 0px;
     font-size: 16px;
   }
-  .mobile-space{
-      display: flex;
-      height: 100px;
+  .mobile-space {
+    display: flex;
+    height: 100px;
   }
   .data {
     display: inline;
     align-self: center;
   }
 
-.more-info >h1{
+  .more-info > h1 {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-}
-.description{
+  }
+  .description {
     text-align: justify;
-}
-.more-info span{
+  }
+  .more-info span {
     font-size: 20px;
     text-align: justify;
-}
-.more-info{
-    padding:5px;
-}
-.contact-image{
+  }
+  .more-info {
+    padding: 5px;
+    background: $light-primary;
+  }
+  .contact-image {
     background-color: $background-card;
-}
+  }
 }
 
 @media screen and (min-width: 501px) {

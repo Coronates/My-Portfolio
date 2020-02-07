@@ -13,3 +13,20 @@
   font-size: 80px;
   color: rgb(163, 248, 163);
 }
+.social-media-links i{
+  font-size: 70px;
+}
+
+@media screen and (min-width: 570px) and (max-height: 300px){
+  .landing {
+    display: inline;
+  }
+  
+}
+
+
+@media screen and (max-width: 1070px) {
+  .social-media-links i{
+    font-size: 50px;
+  }
+}

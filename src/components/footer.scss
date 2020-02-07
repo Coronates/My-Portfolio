@@ -1,7 +1,7 @@
 @import "../utils/bootstrap-grid-system/scss/bootstrap-grid.scss";
 
 .footer {
-  height: 58px;
+  height: 70px;
   width: 100%;
   background-color: #445c54;
   display: flex;
@@ -9,6 +9,7 @@
   position: relative;
   align-self: flex-end;
   z-index: 2;
+  padding:25px;
 
   .presentation__container {
     width: 100%;
@@ -97,4 +98,10 @@
       height: auto;
     }
   }
+}
+@media screen and (max-width: 400px){
+  .footer{
+    display: none;
+  }
+  
 }

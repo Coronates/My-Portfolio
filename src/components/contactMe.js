@@ -5,7 +5,7 @@ import "./contactMe.scss";
 class ContactMe extends Component {
   render() {
     return (
-      <div>
+      <div id="contact">
         <div className="center">
           <div className="card green">
             <div className="additional">
