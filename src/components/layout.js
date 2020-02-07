@@ -23,8 +23,7 @@ class PortfolioLayout extends Component {
               <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/projects">My Projects</Link>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Me & My Projects</Link>
                 <Link to="/contact">Contact Me</Link>
               </Navigation>
             </Header>
@@ -32,8 +31,7 @@ class PortfolioLayout extends Component {
               <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/projects">My Projects</Link>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Me & My Projects</Link>
                 <Link to="/contact">Contact Me</Link>
               </Navigation>
             </Drawer>

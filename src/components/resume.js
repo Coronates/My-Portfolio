@@ -31,10 +31,12 @@ class Resume extends Component {
                   alt="endava logo"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Maxime ipsa ratione omnis alias cupiditate saepe atque totam
-                  aperiam sed nulla voluptatem recusandae dolor, nostrum
-                  excepturi amet in dolores. Alias, ullam.
+                  During my internship, I worked in several projects
+                  implementing the best programming practices, I was responsible
+                  for the front end management and development of a product
+                  using react, redux and JavaScript, this experience
+                  strengthened my technical skills and led me to learn unit
+                  testing, SCRUM methodology and Git.
                 </p>
                 <a
                   className="btn-more"
@@ -61,10 +63,10 @@ class Resume extends Component {
                   alt="endava logo"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Maxime ipsa ratione omnis alias cupiditate saepe atque totam
-                  aperiam sed nulla voluptatem recusandae dolor, nostrum
-                  excepturi amet in dolores. Alias, ullam.
+                  I supported the creation and maintenance of courses in the
+                  Moodle platform for the Master's Degree in Pedagogy and
+                  Research in the Classroom (Virtual Methodology) of the
+                  Department of Education at La Sabana University.
                 </p>
                 <a
                   className="btn-more"
@@ -91,10 +93,10 @@ class Resume extends Component {
                   alt="endava logo"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Maxime ipsa ratione omnis alias cupiditate saepe atque totam
-                  aperiam sed nulla voluptatem recusandae dolor, nostrum
-                  excepturi amet in dolores. Alias, ullam.
+                  I did volunteer work through PSU Sabana's program in
+                  conjunction with corfomento, supporting vulnerable populations
+                  at the national level, always with a good attitude and a
+                  marked willingness to serve.
                 </p>
                 <a
                   className="btn-more"

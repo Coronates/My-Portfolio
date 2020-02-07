@@ -26,3 +26,12 @@
 .category {
   margin: 50px;
 }
+.mdl-grid{
+  flex-flow: column !important;
+}
+@media screen and (min-width: 1070px) {
+  .mdl-grid{
+    flex-flow: wrap !important;
+  }
+
+}
