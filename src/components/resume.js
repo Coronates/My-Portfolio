@@ -60,7 +60,7 @@ class Resume extends Component {
                 <img
                   className="sabana-logo"
                   src={require("../assets/images/sabana.png")}
-                  alt="endava logo"
+                  alt="university of la sabana logo"
                 />
                 <p>
                   I supported the creation and maintenance of courses in the
@@ -90,7 +90,7 @@ class Resume extends Component {
                 <img
                   className="corfomento-logo"
                   src={require("../assets/images/corfomento.png")}
-                  alt="endava logo"
+                  alt="corfomento logo"
                 />
                 <p>
                   I did volunteer work through PSU Sabana's program in

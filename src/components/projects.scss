@@ -14,9 +14,6 @@ $project-title:rgba(185, 183, 183, 0.733);
   padding-left: 60px;
 }
 
-.about-description {
-  font-size: 15px;
-}
 .all-view {
   text-align-last: left;
 }
@@ -49,8 +46,8 @@ $project-title:rgba(185, 183, 183, 0.733);
   .mdl-grid {
     flex-flow: wrap !important;
   }
-  .aboutme-grid {
-    padding-left: 60px;
+  .aboutme-section{
+    padding-left: 65px;
   }
 }
 @media screen and (max-width: 980px) {

@@ -27,7 +27,7 @@ class Projects extends Component {
               <h1>About Me</h1>
             </div>
           </header>
-          <section className="aboutme-grid">
+          <section className="aboutme-section">
             <Grid className="aboutme-grid">
               <Cell col={8}>
                 <div className="about-description">
