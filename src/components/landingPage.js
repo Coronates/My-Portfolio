@@ -8,13 +8,14 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="landing" style={{ width: "100%", margin: "auto"}}>
+        
         <Grid className="landing-grid">
-          <Cell col={12}>
-            <img
+        <img
               className="avatar"
               src={require("../assets/images/done.png")}
               alt="avatar of my face"
             />
+          <Cell col={12}>
             <div className="profile">
               <h1>I'm Andrés Coronado</h1>
               <h2>Computer Engineer</h2>
