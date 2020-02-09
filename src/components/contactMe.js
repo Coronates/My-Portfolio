@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 //syles
 import "./contactMe.scss";
+import myavatar2 from '../assets/images/cartoon.png';
 
 class ContactMe extends Component {
   render() {
@@ -14,7 +15,7 @@ class ContactMe extends Component {
                   <img
                     className="avatar-contact"
                     alt="avatar cartoonized"
-                    src={require("../assets/images/coronate.jpeg")}
+                    src={myavatar2}
                   />
                 </div>
               </div>
