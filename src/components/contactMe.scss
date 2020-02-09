@@ -6,7 +6,7 @@ $text: #fff;
 $first-card-background: linear-gradient(#f8f8f8, $text);
 
 @media screen and (max-width: 501px) {
-  .avatar-contact {
+  .picture {
     border-radius: 50%;
     background-size: contain;
     height: 200px;
@@ -197,11 +197,10 @@ $first-card-background: linear-gradient(#f8f8f8, $text);
   .contact-image {
     text-align: center;
   }
-  .avatar-contact {
+  .picture {
     padding-top: 30px;
     height: 160px;
     width: 120px;
-    opacity: 100%;
   }
 
   .card .additional i {

@@ -13,7 +13,7 @@ class ContactMe extends Component {
               <div className="user-card">
                 <div className="contact-image">
                   <img
-                    className="avatar-contact"
+                    className="picture"
                     src={require("../assets/images/cartoon.png")}
                     alt="avatar cartoonized"
                   />
