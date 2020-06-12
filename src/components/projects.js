@@ -49,6 +49,61 @@ class Projects extends Component {
           </header>
           <section className="projects-grid">
             <Grid className="projects-grid">
+            <Cell col={4}>
+                <div className="category">
+                  <Card
+                    shadow={10}
+                    style={{
+                      width: "340px",
+                      height: "339px",
+                      margin: "5px",
+                      minWidth: "450"
+                    }}
+                  >
+                    <CardTitle
+                      expand
+                      style={{
+                        color: "#fff",
+                        background:
+                          "url(" +
+                          require("../assets/images/sandwich.PNG") +
+                          ")  bottom right -160% no-repeat #ff8b59",
+                        backgroundSize: "contain",
+                        height: "200px",
+                        width: "350px"
+                      }}
+                    >
+                      Sandwich Builder
+                    </CardTitle>
+                    <CardText>
+                      In this responsive ReactJS application with redux you can make and order your own sandwich,
+                      the app includes an authentication module to track your orders.
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        onClick={() =>
+                          this.btnClick(
+                            "https://github.com/Coronates/SandwichBuilder"
+                          )
+                        }
+                        colored
+                      >
+                        Check it on GitHub
+                      </Button>
+                      <Button
+                        onClick={() =>
+                          this.btnClick(
+                            "https://sandwichbuilder1.web.app/"
+                          )
+                        }
+                        colored
+                      >
+                        Try It
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+              </Cell>
               <Cell col={4}>
                 <div className="category">
                   <Card
